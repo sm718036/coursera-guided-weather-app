@@ -478,7 +478,7 @@ const fetchWeatherForeCastFromAPI = async () => {
         }
     })
 
-    const apiUrl = `http://www.7timer.info/bin/api.pl?lon=${lon}&lat=${lat}&product=civillight&output=json`;
+    const apiUrl = `https://www.7timer.info/bin/api.pl?lon=${lon}&lat=${lat}&product=civillight&output=json`;
 
     const response = await fetch(apiUrl);
     const data = await response.json();
