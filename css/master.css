@@ -44,6 +44,10 @@ header {
     cursor: pointer;
 }
 
+select>option {
+    background-color: #ACC8E5;
+}
+
 .search-btn {
     padding: 0.5rem 1rem;
     background: #112A46;
