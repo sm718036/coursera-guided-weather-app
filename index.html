@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <!-- Custom CSS -->
+     <link rel="stylesheet" href="./css/master.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <p>7-Day Skies</p>
+        </div>
+        <div class="search-bar-container">
+            <select name="selectCity" id="search-bar">
+                <option value="#">Netherlands</option>
+            </select>
+            <button class="search-btn">Check Weather</button>
+        </div>
+    </header>
+    <main>
+        <section class="home">
+            <div class="home-content-container">
+                <h1 class="section-title">Welcome to 7-Day Skies!</h1>
+                <h2>Your Ultimate Weather Companion for Europe</h2>
+                <p>Planning your week? Whether you're traveling, scheduling outdoor activities, or simply curious about the skies, <strong>7-Day Skies</strong> is here to bring you accurate and reliable weather forecasts for all major countries in Europe.</p>
+            </div>
+            <div class="image-container">
+                <img src="./images/weather-forecast.png" alt="image showing weather icons">
+            </div>
+        </section>
+        <section class="forecast active-section">
+            <div class="card">
+                <h2 class="day-date">Mon Mar 06</h2>
+                <img src="./images/clear.png" alt="" class="weather-icon">
+                <h3 class="weather-text">Light Rain</h3>
+                <div class="temperature-container">
+                    <p class="high">High: <span id="temp-high"></span></p>
+                    <p class="low">Low: <span id="temp-low"></span></p>
+                </div>
+            </div>
+            <div class="card">
+                <h2 class="day-date">Mon Mar 06</h2>
+                <img src="./images/cloudy.png" alt="" class="weather-icon">
+                <h3 class="weather-text">Light Rain</h3>
+                <div class="temperature-container">
+                    <p class="high">High: <span id="temp-high"></span></p>
+                    <p class="low">Low: <span id="temp-low"></span></p>
+                </div>
+            </div>
+            <div class="card">
+                <h2 class="day-date">Mon Mar 06</h2>
+                <img src="" alt="" class="weather-icon">
+                <h3 class="weather-text">Light Rain</h3>
+                <div class="temperature-container">
+                    <p class="high">High: <span id="temp-high"></span></p>
+                    <p class="low">Low: <span id="temp-low"></span></p>
+                </div>
+            </div>
+            <div class="card">
+                <h2 class="day-date">Mon Mar 06</h2>
+                <img src="" alt="" class="weather-icon">
+                <h3 class="weather-text">Light Rain</h3>
+                <div class="temperature-container">
+                    <p class="high">High: <span id="temp-high"></span></p>
+                    <p class="low">Low: <span id="temp-low"></span></p>
+                </div>
+            </div>
+            <div class="card">
+                <h2 class="day-date">Mon Mar 06</h2>
+                <img src="" alt="" class="weather-icon">
+                <h3 class="weather-text">Light Rain</h3>
+                <div class="temperature-container">
+                    <p class="high">High: <span id="temp-high"></span></p>
+                    <p class="low">Low: <span id="temp-low"></span></p>
+                </div>
+            </div>
+            <div class="card">
+                <h2 class="day-date">Mon Mar 06</h2>
+                <img src="" alt="" class="weather-icon">
+                <h3 class="weather-text">Light Rain</h3>
+                <div class="temperature-container">
+                    <p class="high">High: <span id="temp-high"></span></p>
+                    <p class="low">Low: <span id="temp-low"></span></p>
+                </div>
+            </div>
+            <div class="card">
+                <h2 class="day-date">Mon Mar 06</h2>
+                <img src="" alt="" class="weather-icon">
+                <h3 class="weather-text">Light Rain</h3>
+                <div class="temperature-container">
+                    <p class="high">High: <span id="temp-high"></span></p>
+                    <p class="low">Low: <span id="temp-low"></span></p>
+                </div>
+            </div>
+        </section>
+        <a href="#" class="home-button">
+            <img src="./images/home-button.png" alt="home-icon-to-move-to-home-page">
+        </a>
+    </main>
+    <script src="./js/main.js"></script>
+</body>
+</html>
