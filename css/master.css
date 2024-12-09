@@ -126,6 +126,7 @@ header {
 }
 
 .home-button {
+    display: none;
     position: fixed;
     right: -27%;
     bottom: 5%;
